@@ -39,42 +39,42 @@ class Die {
 
     fill(255, 255, 255);
     if (dots == 1) {
-      circle(myX+30, myY+30, 5);
+      ellipse(myX+30, myY+30, 5, 5);
     }
 
     if (dots == 2) {
-      circle(myX+20, myY+30, 5);
-      circle(myX+40, myY+30, 5);
+      ellipse(myX+20, myY+30, 5, 5);
+      ellipse(myX+40, myY+30, 5, 5);
     }
 
     if (dots == 3) {
-      circle(myX+20, myY+30, 5);
-      circle(myX+30, myY+30, 5);
-      circle(myX+40, myY+30, 5);
+      ellipse(myX+20, myY+30, 5, 5);
+      ellipse(myX+30, myY+30, 5, 5);
+      ellipse(myX+40, myY+30, 5, 5);
     }
 
     if (dots == 4) {
-      circle(myX+20, myY+20, 5);
-      circle(myX+20, myY+40, 5);
-      circle(myX+40, myY+20, 5);
-      circle(myX+40, myY+40, 5);
+      ellipse(myX+20, myY+20, 5, 5);
+      ellipse(myX+20, myY+40, 5, 5);
+      ellipse(myX+40, myY+20, 5, 5);
+      ellipse(myX+40, myY+40, 5, 5);
     }
 
     if (dots == 5) {
-      circle(myX+20, myY+20, 5);
-      circle(myX+20, myY+40, 5);
-      circle(myX+40, myY+20, 5);
-      circle(myX+40, myY+40, 5);
-      circle(myX+30, myY+30, 5);
+      ellipse(myX+20, myY+20, 5, 5);
+      ellipse(myX+20, myY+40, 5, 5);
+      ellipse(myX+40, myY+20, 5, 5);
+      ellipse(myX+40, myY+40, 5, 5);
+      ellipse(myX+30, myY+30, 5, 5);
     }
 
     if (dots == 6) {
-      circle(myX+20, myY+15, 5);
-      circle(myX+20, myY+30, 5);
-      circle(myX+20, myY+45, 5);
-      circle(myX+40, myY+15, 5);
-      circle(myX+40, myY+30, 5);
-      circle(myX+40, myY+45, 5);
+      ellipse(myX+20, myY+15, 5, 5);
+      ellipse(myX+20, myY+30, 5, 5);
+      ellipse(myX+20, myY+45, 5, 5);
+      ellipse(myX+40, myY+15, 5, 5);
+      ellipse(myX+40, myY+30, 5, 5);
+      ellipse(myX+40, myY+45, 5, 5);
     }
   }
 
